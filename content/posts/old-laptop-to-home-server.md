@@ -24,6 +24,12 @@ Set a DHCP reservation in your router for the laptop's MAC address, or configure
 IP directly on the machine. Everything downstream — SSH, reverse proxy rules, app configs —
 gets much more annoying to maintain if the IP can silently change after a reboot.
 
+If the laptop only has WiFi, get it on wired ethernet before going further — WiFi is the
+single most common source of mystery flakiness on a server nobody's actively watching. A
+cheap [USB-to-Ethernet adapter](https://www.amazon.com/s?k=usb+to+ethernet+adapter&tag=alanone-20)
+solves this on machines without a built-in port. (Affiliate link, see the
+[about page]({{< relref "about" >}}).)
+
 ## 3. Lock down SSH before anything else
 
 This machine is about to run continuously and be reachable on your network. Before
@@ -64,6 +70,13 @@ Whatever you self-host, decide the backup story before you have six months of ph
 notes in it. A cron job that rsyncs the app's data directory to another machine or cloud
 storage nightly is a fine starting point — don't let "I'll set up backups later" become the
 default.
+
+Worth pairing with a small [UPS](https://www.amazon.com/s?k=ups+battery+backup&tag=alanone-20)
+— a laptop with its battery still installed already has some protection against a dirty
+shutdown, but if you've stripped the battery or you're running different hardware, a power
+blip mid-write is a genuinely common way to corrupt whatever database or file your app was
+touching at that exact moment. (Affiliate link, see the
+[about page]({{< relref "about" >}}).)
 
 ## What this actually costs to run
 
