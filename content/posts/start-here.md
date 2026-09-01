@@ -20,3 +20,12 @@ these in this order:
 
 More guides get added as they're tested for real, not written speculatively — check the
 [posts index]({{< relref "posts" >}}) for everything published so far.
+
+## Want it pre-packaged instead of typed by hand?
+
+The touchpad tuning, window rules, and extra keybindings covered across these guides are
+also available as a ready-to-run installer — the
+[Omarchy Power Pack](https://alanjancic.gumroad.com/l/omarchy-power-pack). It backs up your
+`~/.config/hypr` before touching anything and lets you apply each module individually, plus
+it includes the full 224-bind keybinding reference offline. Entirely optional — everything
+in it is also just written out in the guides above for free if you'd rather type it yourself.

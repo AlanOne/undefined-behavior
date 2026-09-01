@@ -82,6 +82,11 @@ If you memorize nothing else in week one: `SUPER+RETURN` (terminal), workspace s
 else you'll pick up by needing it once and running `omarchy menu keybindings --print` to
 find it — don't try to memorize the whole list on day one.
 
+Want this whole reference offline, plus a few config tweaks (floating picture-in-picture,
+tuned touchpad, extra binds) applied automatically with a backup first? That's the
+[Omarchy Power Pack](https://alanjancic.gumroad.com/l/omarchy-power-pack) — optional, everything
+in it is also just written out for free across the guides on this site.
+
 Once the desktop side feels comfortable, a natural next project is
 [turning a spare machine into a home server]({{< relref "posts/old-laptop-to-home-server" >}}) —
 same terminal-first workflow, just pointed at something that runs 24/7 instead of your
