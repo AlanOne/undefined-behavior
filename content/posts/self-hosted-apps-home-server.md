@@ -46,6 +46,18 @@ get off a cloud account entirely. Don't start here if this is your first self-ho
 start with Pi-hole or Jellyfin and work up to Nextcloud once you're comfortable with
 updates and backups.
 
+## A note on storage
+
+Jellyfin, Immich, and Nextcloud all have the same hidden cost: they're only as useful as
+the storage behind them, and a laptop's internal drive fills up fast once it's holding a
+media library or a full photo backup. Two common ways to solve this: an
+[external USB hard drive](https://www.amazon.com/s?k=external+hard+drive&tag=alanone-20)
+plugged straight into the server for the simplest setup, or a small dedicated
+[NAS enclosure](https://www.amazon.com/s?k=nas+enclosure&tag=alanone-20) if you want storage
+that survives the server itself being replaced. Buy more than you think you need — media
+and photo libraries only grow. (Affiliate links — see the [about page]({{< relref "about" >}})
+for the disclosure.)
+
 ## Reverse proxy: Caddy or Traefik
 
 Not user-facing on its own, but once you're running more than one or two services, a reverse
