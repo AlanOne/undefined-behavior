@@ -81,3 +81,8 @@ If you memorize nothing else in week one: `SUPER+RETURN` (terminal), workspace s
 (`SUPER+[0-9]`), and `SUPER+W` (close window). That covers most daily navigation. Everything
 else you'll pick up by needing it once and running `omarchy menu keybindings --print` to
 find it — don't try to memorize the whole list on day one.
+
+Once the desktop side feels comfortable, a natural next project is
+[turning a spare machine into a home server]({{< relref "posts/old-laptop-to-home-server" >}}) —
+same terminal-first workflow, just pointed at something that runs 24/7 instead of your
+daily driver.

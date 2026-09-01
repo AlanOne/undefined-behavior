@@ -59,6 +59,10 @@ add to it, you don't need to rewrite it. The pattern for adding a new bind:
 o.bind("SUPER + SHIFT + R", "SSH", "alacritty -e ssh your-server")
 ```
 
+(If `your-server` doesn't exist yet, see
+[turning a spare laptop into a home server]({{< relref "posts/old-laptop-to-home-server" >}})
+— cheapest way to get something worth SSH-ing into.)
+
 And to change something Omarchy already binds, unbind first, then bind again — don't just
 add a second binding on top of the first:
 
