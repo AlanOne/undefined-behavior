@@ -70,3 +70,15 @@ default.
 An old laptop idling with a handful of lightweight containers typically draws well under
 20W. At most electricity rates that's a few dollars a month — cheap enough that the real
 constraint is your time, not the power bill.
+
+## No spare laptop lying around?
+
+Everything above assumes you already own hardware worth repurposing — that's the whole
+appeal, it's free. If you don't have a spare machine, or specifically want something
+reachable from outside your home network without exposing your home IP or fighting your
+ISP's NAT, a small cloud VPS is the paid equivalent: same Docker Compose workflow from step
+4 onward, just running on rented hardware instead of your own. [DigitalOcean](https://m.do.co/c/4c0c0cf146da)
+is a common starting point for this — their cheapest droplet is plenty for the same
+Pi-hole/Vaultwarden-scale workload this guide covers. (That's a referral link — it gets you
+a signup credit and costs you nothing extra; see the [about page](/about/) for the full
+disclosure.)
