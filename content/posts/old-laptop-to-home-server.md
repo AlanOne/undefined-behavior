@@ -55,7 +55,7 @@ commands you won't remember in six months.
 ## 5. Pick your first app, not your eventual stack
 
 Don't try to stand up ten services on day one. Start with one you'll actually use daily —
-see the [self-hosted apps guide](/posts/self-hosted-apps-home-server/) for a shortlist —
+see the [self-hosted apps guide]({{< relref "posts/self-hosted-apps-home-server" >}}) for a shortlist —
 get comfortable with backups and updates for that one app, then add the next.
 
 ## 6. Set up backups before you have anything worth losing
@@ -80,5 +80,5 @@ ISP's NAT, a small cloud VPS is the paid equivalent: same Docker Compose workflo
 4 onward, just running on rented hardware instead of your own. [DigitalOcean](https://m.do.co/c/4c0c0cf146da)
 is a common starting point for this — their cheapest droplet is plenty for the same
 Pi-hole/Vaultwarden-scale workload this guide covers. (That's a referral link — it gets you
-a signup credit and costs you nothing extra; see the [about page](/about/) for the full
+a signup credit and costs you nothing extra; see the [about page]({{< relref "about" >}}) for the full
 disclosure.)

@@ -34,7 +34,7 @@ buildExpired = false
 
 [[params.socialIcons]]
   name = "github"
-  url = "https://github.com/"
+  url = "https://github.com/AlanOne"
 
 [[menu.main]]
   identifier = "posts"

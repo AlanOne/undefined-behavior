@@ -42,7 +42,7 @@ hyprctl monitors                   # connected displays, names, resolutions
 
 Run both before editing anything. The keybindings list in particular is generated live, so
 it's always accurate — trust it over any cheat sheet (including the
-[one on this site](/posts/hyprland-keybindings-cheat-sheet/)) if they ever disagree.
+[one on this site]({{< relref "posts/hyprland-keybindings-cheat-sheet" >}})) if they ever disagree.
 
 ## 3. Set your monitor layout explicitly if you run more than one display
 

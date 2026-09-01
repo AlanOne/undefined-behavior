@@ -36,7 +36,7 @@ cost is negligible.
 A lightweight, self-hosted-friendly implementation of the Bitwarden server API — same
 official mobile/browser clients, your own server. Worth the extra care on backups given
 what's stored in it (see the backup note in the
-[old laptop to home server guide](/posts/old-laptop-to-home-server/)).
+[old laptop to home server guide]({{< relref "posts/old-laptop-to-home-server" >}})).
 
 ## File sync/cloud storage: Nextcloud
 
