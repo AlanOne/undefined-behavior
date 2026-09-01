@@ -1,7 +1,7 @@
 ---
 title: "Start Here: A Practical Path Through Omarchy"
 date: 2026-09-01
-draft: true
+draft: false
 tags: ["omarchy", "hyprland", "guide"]
 summary: "The order to actually read these guides in if you just installed Omarchy and want a working, comfortable setup fast."
 ---

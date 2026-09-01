@@ -1,14 +1,10 @@
 ---
 title: "Turn an Old Laptop Into a Home Server (Step by Step)"
 date: 2026-09-01
-draft: true
+draft: false
 tags: ["self-hosting", "linux", "home-server", "guide"]
 summary: "You don't need a NAS or a rack to start self-hosting. An old laptop with a broken screen and a wall outlet is enough."
 ---
-
-> **Draft note:** verify current package names/commands for your target distro before
-> publishing (this assumes an Arch-based host to match the rest of the site, but adapt
-> instructions if you're using something else).
 
 The laptop that's too slow for daily use is usually not too slow to run Jellyfin, Pi-hole,
 or a handful of small self-hosted apps 24/7. That's the whole appeal: you already own the

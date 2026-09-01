@@ -1,14 +1,10 @@
 ---
 title: "Omarchy Keybindings Cheat Sheet You'll Actually Use"
 date: 2026-09-01
-draft: true
+draft: false
 tags: ["hyprland", "omarchy", "keybindings", "cheatsheet"]
 summary: "The core Omarchy binds worth memorizing first, organized by what you're actually trying to do — pulled from the live binding list, not a copy-pasted default config."
 ---
-
-> **Draft note:** generated from `omarchy menu keybindings --print` on Omarchy 4.0.2. Re-run
-> that command yourself before publishing — it's always accurate to what's actually
-> installed, this list is a snapshot.
 
 Most keybinding cheat sheets are a dump of a default config file, alphabetized and useless
 until you already know the system. This is grouped by intent, and — unlike most cheat

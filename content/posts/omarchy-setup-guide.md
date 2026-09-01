@@ -1,14 +1,10 @@
 ---
 title: "Omarchy Setup Guide: What to Change in Your First Hour"
 date: 2026-09-01
-draft: true
+draft: false
 tags: ["omarchy", "hyprland", "linux", "setup"]
 summary: "Omarchy ships with strong opinionated defaults, configured through a Lua API rather than plain Hyprland conf files. Here's what's worth touching immediately, and what to leave alone."
 ---
-
-> **Draft note:** this was written against Omarchy 4.0.2 — confirm your version with
-> `pacman -Q omarchy` since the config system changed significantly from earlier releases
-> (older versions used plain `.conf` files; current Omarchy uses Lua).
 
 Omarchy (Arch Linux + Hyprland, preconfigured by DHH's install script) is deliberately
 opinionated: it hands you a working tiling setup instead of a blank Arch install and a

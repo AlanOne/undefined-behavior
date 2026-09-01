@@ -1,13 +1,10 @@
 ---
 title: "Best Self-Hosted Apps to Run on a Home Server in 2026"
 date: 2026-09-01
-draft: true
+draft: false
 tags: ["self-hosting", "home-server", "linux"]
 summary: "A shortlist of self-hosted apps that are actually worth the maintenance burden, organized by what problem they solve."
 ---
-
-> **Draft note:** confirm current project names/status before publishing — self-hosted
-> project landscape shifts fairly often (forks, renames, projects going unmaintained).
 
 There are hundreds of things you *can* self-host. Most people who try to run all of them
 burn out within a month. This is a shortlist organized by the problem each one solves, not
