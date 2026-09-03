@@ -2,6 +2,7 @@
 title: "Omarchy Setup Guide: What to Change in Your First Hour"
 date: 2026-09-01
 draft: false
+categories: ["Linux"]
 tags: ["omarchy", "hyprland", "linux", "setup"]
 summary: "Omarchy ships with strong opinionated defaults, configured through a Lua API rather than plain Hyprland conf files. Here's what's worth touching immediately, and what to leave alone."
 ---

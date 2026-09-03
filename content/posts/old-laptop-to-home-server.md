@@ -2,6 +2,7 @@
 title: "Turn an Old Laptop Into a Home Server (Step by Step)"
 date: 2026-09-01
 draft: false
+categories: ["Self-Hosting", "Linux"]
 tags: ["self-hosting", "linux", "home-server", "guide"]
 summary: "You don't need a NAS or a rack to start self-hosting. An old laptop with a broken screen and a wall outlet is enough."
 ---

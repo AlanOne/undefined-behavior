@@ -2,6 +2,7 @@
 title: "Omarchy Keybindings Cheat Sheet You'll Actually Use"
 date: 2026-09-01
 draft: false
+categories: ["Linux"]
 tags: ["hyprland", "omarchy", "keybindings", "cheatsheet"]
 summary: "The core Omarchy binds worth memorizing first, organized by what you're actually trying to do — pulled from the live binding list, not a copy-pasted default config."
 ---

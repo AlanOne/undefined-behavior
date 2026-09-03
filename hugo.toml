@@ -1,7 +1,7 @@
 baseURL = "https://AlanOne.github.io/omarchy-notes/"
 languageCode = "en-us"
 locale = "en-US"
-title = "Omarchy Notes"
+title = "Undefined Behavior"
 theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
@@ -14,7 +14,7 @@ buildExpired = false
 
 [params]
   env = "production"
-  description = "Practical guides for Omarchy, Hyprland, self-hosting, and Linux dev tooling — written by someone who actually runs this stuff daily."
+  description = "Practical, tested notes on Linux, Windows, gaming, self-hosting, and programming — written by someone who actually runs this stuff daily, not from a press release."
   author = "Alan"
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -29,8 +29,8 @@ buildExpired = false
   comments = false
 
   [params.homeInfoParams]
-    Title = "Omarchy Notes"
-    Content = "Practical, no-fluff guides for running Omarchy, Hyprland, and a self-hosted Linux setup — written from actually doing it, not from a press release."
+    Title = "Undefined Behavior"
+    Content = "What happens when you push a system past what it's supposed to do. Notes on Linux, Windows, gaming, self-hosting, and programming — written from actually doing it, not from a press release."
 
 [[params.socialIcons]]
   name = "github"
@@ -43,22 +43,28 @@ buildExpired = false
   weight = 10
 
 [[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
+
+[[menu.main]]
   identifier = "start-here"
   name = "Start Here"
   url = "/posts/start-here/"
-  weight = 20
+  weight = 30
 
 [[menu.main]]
   identifier = "search"
   name = "Search"
   url = "/search/"
-  weight = 30
+  weight = 40
 
 [[menu.main]]
   identifier = "about"
   name = "About"
   url = "/about/"
-  weight = 40
+  weight = 50
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

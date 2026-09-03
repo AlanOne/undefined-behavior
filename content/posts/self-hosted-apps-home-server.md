@@ -2,6 +2,7 @@
 title: "Best Self-Hosted Apps to Run on a Home Server in 2026"
 date: 2026-09-01
 draft: false
+categories: ["Self-Hosting"]
 tags: ["self-hosting", "home-server", "linux"]
 summary: "A shortlist of self-hosted apps that are actually worth the maintenance burden, organized by what problem they solve."
 ---
