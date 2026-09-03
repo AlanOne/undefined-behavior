@@ -1,0 +1,137 @@
+/* ===== Undefined Behavior — palette & type =====
+   "Undefined behavior" in the spec sense: what happens when you push a system
+   past its guarantees. The accent (#FF2E92) is the exact magenta of a
+   "missing texture" checkerboard — the fallback engines render when a
+   reference can't be resolved. That IS undefined behavior, visually.
+*/
+
+:root {
+    /* light theme (default, unstamped root) */
+    --theme: #FAF7F5;
+    --entry: #F1ECE9;
+    --primary: #18151A;
+    --secondary: #6B6673;
+    --tertiary: #E3DCD8;
+    --content: #201C22;
+    --code-block-bg: #1C1B24;
+    --code-bg: #F1ECE9;
+    --border: #E3DCD8;
+    --accent: #C2127A;
+    --accent-soft: #F5DCE9;
+    color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+    --theme: #0A0A10;
+    --entry: #131319;
+    --primary: #EDEAE6;
+    --secondary: #8B8894;
+    --tertiary: #232430;
+    --content: #DAD6D2;
+    --code-block-bg: #131319;
+    --code-bg: #1C1B24;
+    --border: #232430;
+    --accent: #FF2E92;
+    --accent-soft: #2B0A1E;
+    color-scheme: dark;
+}
+
+/* ===== Type ===== */
+
+body {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.logo a,
+.menu a,
+#theme-toggle,
+.post-tags a,
+.entry-header h2,
+.first-entry .entry-header h1,
+.breadcrumbs,
+.post-meta,
+.pagination,
+button {
+    font-family: "Martian Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+.entry-content, .post-content {
+    font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+
+code, pre, .post-content code, .post-content pre {
+    font-family: "Martian Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+/* ===== Links & accent ===== */
+
+.entry-content a,
+.post-content a {
+    color: var(--accent);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+.post-tags a {
+    color: var(--accent);
+    border-color: var(--accent-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+}
+
+.post-tags a:hover {
+    background: var(--accent-soft);
+}
+
+/* category/tag term links inline in post meta */
+.entry-header + .post-meta a,
+.post-single .post-meta a {
+    color: var(--accent);
+}
+
+/* ===== Homepage hero: the one deliberate flourish ===== */
+
+.first-entry.home-info {
+    position: relative;
+    padding: 2.5rem 1.5rem;
+    border-radius: var(--radius);
+    background-image: repeating-conic-gradient(var(--accent-soft) 0% 25%, transparent 0% 50%);
+    background-size: 28px 28px;
+    background-position: center;
+}
+
+.first-entry .entry-header h1 {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    text-shadow: 2px 0 0 var(--accent), -2px 0 0 var(--accent-soft);
+}
+
+.home-info .entry-content {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.15rem;
+    max-width: 60ch;
+    margin: 0 auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .first-entry .entry-header h1 {
+        transition: text-shadow 0.3s ease;
+    }
+
+    .first-entry .entry-header h1:hover {
+        text-shadow: 3px 0 0 var(--accent), -3px 0 0 var(--accent-soft);
+    }
+}
+
+/* ===== Category pills on list/archive pages ===== */
+
+.terms-tags a,
+.term-tags a {
+    font-family: "Martian Mono", monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--accent);
+}
