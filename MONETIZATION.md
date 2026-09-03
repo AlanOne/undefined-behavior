@@ -11,7 +11,7 @@ yet, and it has zero backlinks. This step matters more than affiliate signups �
 anything else.
 
 1. Go to **Google Search Console** (search.google.com/search-console), sign in with your
-   Google account, add property → URL prefix → `https://alanone.github.io/omarchy-notes/`.
+   Google account, add property → URL prefix → `https://alanone.github.io/undefined-behavior/`.
 2. Verify ownership using the **HTML tag** method (easiest for a static site — no file
    upload needed). Google gives you a line like:
    `<meta name="google-site-verification" content="XXXXXXXX" />`
@@ -19,7 +19,7 @@ anything else.
    push — that's the whole integration.
 3. Once verified, submit the sitemap: in Search Console, go to Sitemaps → enter `sitemap.xml`
    → Submit. (The sitemap is already live and correctly generated at
-   `alanone.github.io/omarchy-notes/sitemap.xml` — nothing else to build there.)
+   `alanone.github.io/undefined-behavior/sitemap.xml` — nothing else to build there.)
 4. Optional but easy: **Bing Webmaster Tools** (bing.com/webmasters) lets you import
    directly from an already-verified Google Search Console property — one click once step 2
    is done.
