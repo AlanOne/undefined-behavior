@@ -1,7 +1,7 @@
 ---
 title: "Laravel to Craft CMS: What Actually Transfers, and What Doesn't"
 date: 2026-09-03
-draft: true
+draft: false
 categories: ["Programming"]
 tags: ["laravel", "craft-cms", "php", "programming"]
 summary: "Both are PHP, both are opinionated, and that's about where the similarity stops being useful. Here's what a Laravel developer's instincts get right and wrong on a first Craft CMS project."

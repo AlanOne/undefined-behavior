@@ -1,15 +1,11 @@
 ---
 title: "Gaming on Linux in 2026: What Proton Actually Handles and What Still Needs Work"
 date: 2026-09-03
-draft: true
+draft: false
 categories: ["Gaming", "Linux"]
 tags: ["linux", "gaming", "proton", "steam", "steam-deck"]
 summary: "Proton has made Linux gaming genuinely viable, not just theoretically possible. Here's the honest state of it: what to check before buying a game, and the tools that actually matter."
 ---
-
-> **Draft note:** compatibility specifics move fast in this space — verify current
-> ProtonDB ratings and anti-cheat support status for any specific games mentioned before
-> publishing, rather than trusting this snapshot to stay accurate for long.
 
 The pitch for Linux gaming used to be "it mostly works if you're patient." That's no longer
 the honest framing — thanks largely to Valve's investment in Proton (driven by the Steam

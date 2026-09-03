@@ -1,15 +1,11 @@
 ---
 title: "WSL2 Setup Guide: A Real Linux Environment on Windows Without Dual-Booting"
 date: 2026-09-03
-draft: true
+draft: false
 categories: ["Windows"]
 tags: ["windows", "wsl", "wsl2", "linux", "setup"]
 summary: "You don't need to dual-boot or run a VM to get a genuine Linux environment on Windows. Here's what WSL2 actually gets you, and the handful of things worth configuring on day one."
 ---
-
-> **Draft note:** verify current command output/UI against your installed Windows build before
-> publishing — WSL's own tooling and default Ubuntu version bundled with `wsl --install` do
-> shift between Windows feature updates.
 
 WSL2 isn't a compatibility shim like the original WSL1 — it runs a real, lightweight Linux
 kernel in a managed VM, which means real filesystem semantics, real Docker support without

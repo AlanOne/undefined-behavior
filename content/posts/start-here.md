@@ -1,7 +1,7 @@
 ---
 title: "Start Here: A Practical Path Through This Site"
 date: 2026-09-01
-draft: true
+draft: false
 tags: ["guide"]
 summary: "Where to start depending on what you're actually here for — organized by category, not just publish order."
 ---
